@@ -1,0 +1,21 @@
+main {
+  padding: 2em;
+  width: max(50%, 800px);
+  margin: auto;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+strong {
+  color: orange;
+}
+
+span {
+  font-family: monospace;
+  padding: 0 8px;
+  background-color: darkcyan;
+  border: 1px solid cyan;
+  border-radius: 10px;
+}
