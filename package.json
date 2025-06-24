@@ -4,9 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "compose-up": "docker compose -f docker-compose.yml up",
+    "compose-down": "docker compose -f docker-compose.yml down"
   },
   "private": true,
   "dependencies": {
